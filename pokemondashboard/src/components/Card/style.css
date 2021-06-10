@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px 1px rgb(255, 238, 0);
+}
+.pokemonAttributes{
+    display: flex;
+
+}
+.pokemonAttributes > h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    color: #fff;
+}
+h2.labels{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.card > img{
+    height: 200px;
+}
+
+.Card__type{
+    background-color: rgb(255, 238, 0);
+    color: #000;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.Card_weakness{
+    background-color: rgb(255, 238, 0);
+    color: #000;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}

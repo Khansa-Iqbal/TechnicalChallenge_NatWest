@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.Navbar {
+    height: 10vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navbar > h1{
+    color: rgb(255, 238, 0);
+    font-family: 'Oswald', sans-serif;
+}
